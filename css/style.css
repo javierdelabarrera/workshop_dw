@@ -1,0 +1,25 @@
+
+h1 {
+    font-size: 2em;
+    color: dimgrey;
+}
+
+h2 {
+    font-size: 1.4em;
+    color: darkslateblue;
+}
+
+p {
+    font-size: 1.2em;
+    color: darkorchid;
+}
+
+ol li {
+    font-size: 1.1em;
+    color: rgb(13, 54, 190);
+}
+
+.album_title {
+    font-size: 1.3em;
+    color: rgba(65, 8, 77, 0.384);
+}
