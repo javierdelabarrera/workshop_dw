@@ -1,11 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+/* GENERAL */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* FLOATS */
+
+
+
+/* ESTILOS */
+
+/* . header {
+    height: 5rem;
+    background-color: rgba(209, 203, 203, 0.473);
+} */
 
 h1 {
-    font-size: 2em;
+    font-size: 2rem;
     color: dimgrey;
 }
 
 h2 {
-    font-size: 1.4em;
+    font-size: 1.4rem;
     color: darkslateblue;
 }
 
@@ -22,4 +51,17 @@ ol li {
 .album_title {
     font-size: 1.3em;
     color: rgba(65, 8, 77, 0.384);
+}
+
+/* FLEX BOX */
+
+.flex-container {
+    background-color: black;
+    height: 5rem;
+    display: flex;
+    margin: 0.5rem 2rem;  
+}
+
+.flex-item {
+    
 }
