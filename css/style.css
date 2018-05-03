@@ -39,12 +39,12 @@ ol li {
 
 header {
     height: 10rem;
-    background: rgba(45, 45, 59, 0.95);
+    /* background: rgba(45, 45, 59, 0.95); */
     padding: 0 15rem;
     position: absolute;
     width: 100%;
     top: 0;
-    box-shadow: 1rem 0 rgba(84, 84, 94, 0.9);
+    box-shadow: 0 0 1rem rgba(84, 84, 94, 0.9);
 }
 
 .divider {
@@ -120,3 +120,109 @@ nav ol {
 
 /* HOME */
 
+#home {
+    background-image: url('../img/grupal4.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 75rem;
+    margin-top: -8rem;
+    padding: 0;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.6)
+}
+
+#home article {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.pointer-down {
+    color: white;
+    height: 10rem;
+    width: 10rem;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-radius: 50%;
+    margin: 2rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    opacity: 0.5;
+    transition: transform 0.4s ease-in-out;
+}
+
+.pointer-down:hover {
+    transform: scale(1.3);
+    transition: transform 0.6s ease-in-out;
+}
+
+/* ABOUT */
+
+#about {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+#about:hover article div:nth-child(1) .circle-image {
+    animation-name: zoom-in-out;
+    animation-duration: 2.5s;
+}
+
+#about:hover article div:nth-child(2) .circle-image {
+    animation-name: zoom-in-out;
+    animation-delay: 2.5s;
+    animation-duration: 2.5s;
+}
+
+#about:hover article div:nth-child(3) .circle-image {
+    animation-name: zoom-in-out;
+    animation-delay: 5s;
+    animation-duration: 2.5s;
+}
+
+@keyframes zoom-in-out {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.3);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.column {
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    padding: 4rem;
+}
+
+.column h4 {
+    margin: 2rem;
+}
+
+.circle-image {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.6);
+    transition: transform 0.4s ease;
+}
+
+.circle-image img {
+    width: 100%;
+    height: 100%
+}
+
+/* HISTORY */
