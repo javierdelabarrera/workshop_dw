@@ -5,53 +5,115 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Clase 3 | Desafio</title>
+    <title>Acorazado Potemkin</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
+    crossorigin="anonymous">
 </head>
 
 <body>
-    <header class="flex-container">
-        <h1 class="main-title">Pequeña Orquesta Reincidentes</h1>
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#about">La banda</a>
-            <a href="#history">Historia</a>
-            <a href="#discography">Discografía</a>
-            <a href="#contact">Contacto</a>
-        </nav>
-    </header>
+    <header>
+        </header>
+        <div class="divider"></div>
+        <div class="sticky-header">
+            <h1 class="header-title">Acorazado Potemkin</h1>
+
+            <nav>
+                <ol>
+                    <a href="#about">
+                        <li class="main-li">
+                            La Banda
+                            <ol class="dropdown">
+                                <li>Juan Pablo Fernandez</li>
+                                <li>Federico Ghazarossian</li>
+                                <li>Luciano Esain</li>
+                            </ol>
+                        </li>
+                    </a>
+                    <a href="#history">
+                        <li class="main-li">
+                            Historia
+                        </li>
+                    </a>
+                    <a href="#discography">
+                        <li class="main-li">
+                            Discografía
+                            <ol class="dropdown">
+                                <li>Mugre</li>
+                                <li>Remolino</li>
+                                <li>Labios del Rio</li>
+                            </ol>
+                        </li>
+                    </a>
+                    <a href="#contact">
+                        <li class="main-li">
+                            Contacto
+                        </li>
+                    </a>
+                </ol>
+                <!-- REVISAR SI ESTE CLEANER HACE FALTA -->
+                <div class="cleaner"></div>
+            </nav>
+
+        </div>
+
     <main>
         <section id="home">
             <article>
-                <h2>Home</h2>
-                <p>Pequeña Orquesta Reincidentes fue una banda argentina de música. Su estilo es una síntesis de música y poesía
-                    de las grandes ciudades portuarias del Río de la Plata y el Litoral.</p>
+                <a href="#about">
+                    <div class="pointer-down">
+                        <i class="fas fa-arrow-circle-down fa-4x"></i>
+                    </div>
+                </a>
             </article>
         </section>
+
         <section id="about">
-            <!-- insertar acá el desafío de la clase 5 -->
-            <h1>La banda</h1>
             <article>
-                <p>Sus canciones demuestran referencias a la cultura inmigrante europea que pobló las ciudades rioplatenses.
-                    Estas marcas heterogéneas de música que trajo el Atlántico se combinan con un profundo romanticismo lírico.
-                    Combinaron ritmos de folklore del este de Europa, tonadas francesas, tango, vals, jazz, tintes gitanos,
-                    folk, rock con tintes oscuros y sombríos (al estilo Nick Cave), todo esto encarnado en variadas y poco
-                    convencionales combinaciones de instrumentos.</p>
+                <div class="column">
+                    <div class="circle-image">
+                        <img src="./img/juan.jpeg" alt="juan_pablo_fernandez">
+                    </div>
+                    <h4>Juan Pablo Fernandez</h4>
+                    <p>Cantante y guitarrista de la mítica Pequeña Orquesta Reincidentes, rara avis de la música rioplatense, que tradujo primero la influencia de Nick Cave, y luego se nutrió de los sonidos que hallaron en los puertos para redondear una propuesta inigualable de intensa originalidad.</p>
+                </div>
+
+                <div class="column">
+                    <div class="circle-image">
+                        <img src="./img/federico2.png" alt="federico_ghazarossian">
+                    </div>
+                    <h4>Federico Ghazarossian</h4>
+                    <p>Contrabajista en Me Darás Mil Hijos, su historial comienza en los sótanos porteños, con Don Cornelio y la Zona, banda de post punk guerrillero, y siguió en Los Visitantes, el grupo que anticipó la alterlatinidad con sello propio.</p>
+                </div>
+
+                <div class="column">
+                    <div class="circle-image">
+                        <img src="./img/luciano.jpeg" alt="luciano_esain">
+                    </div>
+                    <h4>Luciano Esain</h4>
+                    <p>Eximnio baterista de Plaimobyl y Valle de Muñecas, siempre fue de pegarle muy duro a los parches, aportando coros y texturas de voz.</p>
+                </div>
+                <div class="cleaner"></div>
             </article>
         </section>
+
+
         <section id="history">
-            <h1>Historia</h1>
+
             <article>
-                <p>Surgidos de la escena under porteña de comienzos de los 90, su estilo inicial ancló en el dark rock, matizado
-                    por el tango y demás ritmos porteños. En el año 2000, con la salida del bajista Fernando Macer, incorporaron
-                    distintos instrumentos como banjos mandolinas tormpetas contrabajo y demás, que dieron lugar al sonido
-                    distintivo de la Pequeña Orquesta. En el 2007 salió su último disco, Capricho. Esta produción tiene versiones,
-                    propias y ajenas, en vivo o no editadas. En mayo de 2008 se separaron definitivamente sin realizar ningún
-                    concierto de despedida.</p>
+                <p>ACORAZADO POTEMKIN es un trío de rock argentino integrado por Juan Pablo Fernández, cantante y guitarrista
+                    proveniente de Pequeña Orquesta Reincidentes; Luciano Esain, baterista que también forma parte de Valle
+                    de Muñecas y Motorama tras pasar por proyectos como Flopa-Manza-Minimal y Plaimobyl; Federico Ghazarossian,
+                    bajista que participó de bandas como Don Cornelio y la zona, Los Visitantes y Me darás mil hijos.</p>
+                <p>La banda nació en 2009 y tiene editados tres discos de estudio: -Mugre (2011), con cortes como “La Mitad”
+                    (reversionado luego en tango por el grupo “34 Puñaladas”). -Remolino (2014), del cual se destacan “A
+                    lo mejor” –cuyo video fue dirigido por la prestigiosa fotógrafa argentina Nora Lezano-, “Cerca del sol”
+                    y “El pan del facho”. -Labios del río (2017), presentado en las ciudades de Buenos Aires, La Plata, Córdoba,
+                    Mendoza, Rosario y Montevideo.</p>
             </article>
         </section>
         <section id="discography">
-            <h1>Discografía</h1>
+            <h3>Discografía</h3>
             <table border="1">
                 <thead>
                     <tr>
@@ -63,101 +125,80 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>2000</td>
-                        <td class="album_title">Pequeña Orquesta Reincidentes</td>
+                        <td>2011</td>
+                        <td class="album_title">Mugre</td>
                         <td>
-                            <img src="./img/por.jpg"
-                                alt="tapa de disco pequenia orquesta reincidentes">
+                            <img src="./img/mugre.jpeg" alt="tapa de disco mugre acorazado potemkin">
                         </td>
                         <td>
                             <ol>
-                                <li>Stick & Stones</li>
-                                <li>El Atajo</li>
-                                <li>Desconsuelo</li>
-                                <li>El Portugués</li>
-                                <li>La Baba del Diablo</li>
-                                <li>Tesoro</li>
-                                <li>La Visita</li>
-                                <li>Crack</li>
-                                <li>La Venganza de Victor, el Cuchillero</li>
-                                <li>Dos de Mis Sombras</li>
-                                <li>Spiegelstrasse</li>
-                                <li>Equipaje</li>
-                                <li>El Egoista</li>
+                                <li>Algo</li>
+                                <li>Desert</li>
+                                <li>Desayuno</li>
+                                <li>La Carbonera</li>
+                                <li>La Mitad</li>
+                                <li>Lengua Materna</li>
+                                <li>Smiley Ghost</li>
+                                <li>Gloria</li>
+                                <li>Puma Thurman</li>
+                                <li>Caracol</li>
+                                <li>Quiero</li>
+                                <li>Los Muertos</li>
+                                <li>Perrito</li>
+                                <li>Unos Versos</li>
                             </ol>
                         </td>
                     </tr>
                     <tr>
-                        <td>2001</td>
-                        <td class="album_title">Mi suerte</td>
+                        <td>2014</td>
+                        <td class="album_title">Remolino</td>
                         <td>
-                            <img src="./img/misuerte.jpg" alt="tapa de disco pequenia orquesta reincidentes mi suerte">
+                            <img src="./img/remolino.jpeg" alt="tapa de disco remolino acorazado potemkin">
                         </td>
                         <td>
                             <ol>
-                                <li>Mi Suerte</li>
-                                <li>La Zorra</li>
-                                <li>Candilejas</li>
-                                <li>Negro</li>
-                                <li>Cruz</li>
-                                <li>Tres Deseos</li>
+                                <li>A lo Mejor</li>
+                                <li>Pintura Interior</li>
+                                <li>Cerca del Sol</li>
+                                <li>Miserere</li>
+                                <li>Y no Hace Tanto</li>
+                                <li>El Pan del Facho</li>
+                                <li>Remolino</li>
+                                <li>Disuelto</li>
+                                <li>Reconstrucción</li>
+                                <li>La Otra Calle</li>
+                                <li>Sabés</li>
                             </ol>
                         </td>
                     </tr>
                     <tr>
-                        <td>2003</td>
-                        <td class="album_title">Miguita de pan</td>
+                        <td>2017</td>
+                        <td class="album_title">Labios del Río</td>
                         <td>
-                            <img src="./img/miguitadepan.jpg" alt="tapa de disco pequenia orquesta reincidentes miguita de pan">
+                            <img src="./img/labiosdelrio.jpeg" alt="tapa de disco labios del rio acorazado potemkin">
                         </td>
                         <td>
                             <ol>
-                                <li>Siete Suelas</li>
-                                <li>Gallo Rojo, Gallo Negro</li>
-                                <li>Liso</li>
-                                <li>Turba</li>
-                                <li>Miguita de Pan</li>
-                                <li>Desvelo</li>
-                                <li>De Donde Mella Más</li>
-                                <li>El Vaivén</li>
-                                <li>Sin Dinero</li>
-                                <li>Ruido</li>
-                                <li>El Pasito</li>
-                                <li>En El Oeste</li>
-                                <li>Miedo a la Oscuridad</li>
-                                <li>Tren Blanco</li>
-                                <li>Nana</li>
-                            </ol>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>2005</td>
-                        <td class="album_title">Traje</td>
-                        <td>
-                            <img src="./img/traje.jpg"
-                                alt="tapa de disco pequenia orquesta reincidentes traje">
-                        </td>
-                        <td>
-                            <ol>
-                                <li>Mudanza</li>
-                                <li>Anoche</li>
-                                <li>Negro y Amarillo</li>
-                                <li>Escafado</li>
-                                <li>Romance de Suelas y Suelos</li>
-                                <li>El Camión</li>
-                                <li>No</li>
-                                <li>De Rama en Rama</li>
-                                <li>Membranas</li>
-                                <li>No Hay un Alma</li>
-                                <li>Corazón</li>
-                                <li>Abrazame</li>
-                                <li>Invisible</li>
+                                <li>El Rosarino</li>
+                                <li>Flying Saucers</li>
+                                <li>Sopa de Alambre</li>
+                                <li>Las Cajas</li>
+                                <li>Mundo Lego</li>
+                                <li>Dos de Nosotros</li>
+                                <li>Santo Tomé</li>
+                                <li>Humano</li>
+                                <li>Haz de Luz</li>
+                                <li>Roto y Descosido</li>
+                                <li>Semilla de Piedra</li>
+                                <li>Soñé</li>
+                                <li>Hablar de Vos</li>
                             </ol>
                         </td>
                     </tr>
                 </tbody>
             </table>
         </section>
+
         <section id="contact">
             <h1>Contacto</h1>
             <form>
@@ -200,9 +241,9 @@
         </section>
     </main>
     <footer>
-        <span>Pequeña Orquesta Reincidentes - 2018</span>
+        <span>Acorazado Potemkin - 2018</span>
         <a href="termofuse.html">Term of use</a>
-        <span>Pequeña Orquesta Reincidentes</span>
+        <span>Acorazado Potemkin</span>
     </footer>
 </body>
 

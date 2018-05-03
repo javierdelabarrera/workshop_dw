@@ -17,51 +17,106 @@ a {
     color: inherit;
 }
 
-/* FLOATS */
-
-
-
-/* ESTILOS */
-
-/* . header {
-    height: 5rem;
-    background-color: rgba(209, 203, 203, 0.473);
-} */
-
 h1 {
-    font-size: 2rem;
-    color: dimgrey;
+    font-size: 3.5rem;
+    color: rgba(255, 255, 255, 0.9);
 }
 
 h2 {
     font-size: 1.4rem;
-    color: darkslateblue;
-}
-
-p {
-    font-size: 1.2em;
-    color: darkorchid;
 }
 
 ol li {
     font-size: 1.1em;
-    color: rgb(13, 54, 190);
 }
 
 .album_title {
     font-size: 1.3em;
-    color: rgba(65, 8, 77, 0.384);
 }
 
-/* FLEX BOX */
 
-.flex-container {
-    background-color: black;
-    height: 5rem;
+/* HEADER */
+
+header {
+    height: 10rem;
+    background: rgba(45, 45, 59, 0.95);
+    padding: 0 15rem;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    box-shadow: 1rem 0 rgba(84, 84, 94, 0.9);
+}
+
+.divider {
+    height: 1rem;
+}
+
+.sticky-header {
     display: flex;
-    margin: 0.5rem 2rem;  
+    align-items: center;
+    position: sticky;
+    top: 0;
+    height: 5rem;
+    padding: 0 15rem;
+    z-index: 1000;
+    background: rgba(84, 84, 94, 0.55);
 }
 
-.flex-item {
-    
+nav ol {
+    display: flex;
 }
+
+.main-li {
+    list-style-type: none;
+    cursor: pointer;
+    margin: 0.5rem;
+    display: flex;
+    font-size: 1.8rem;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    position: relative;
+    border-radius: 0.4rem;
+    height: 4rem;
+    min-width: 15rem;
+}
+
+.header-title {
+    flex: 1;
+    font-size: 2.5rem;
+    color: rgba(241, 241, 241, 0.884);
+    letter-spacing: 0.5rem;
+    font-variant-ligatures: no-common-ligatures;
+    -webkit-font-variant-ligatures: no-common-ligatures;
+    text-align: left;
+}
+
+.main-li:hover .dropdown {
+    display: block;
+}
+
+.dropdown {
+    position: absolute;
+    display: none;
+    background-color: rgba(255, 255, 255, 0.95);
+    min-width: 15rem;
+    top: 4rem;
+    padding: 0;
+    left: 0;
+}
+
+.dropdown li {
+    list-style-type: none;
+    color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+    padding: 1rem;
+}
+
+.dropdown li:hover {
+    color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+/* HOME */
+
